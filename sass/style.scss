@@ -1,0 +1,30 @@
+// Background Colors
+$white: #fff;
+$lightGrey: #fafafa;
+$redish: #ed4956;
+$darkGrey: #dbdbdb;
+$orange: #f99d59;
+
+$maxWidth: 975px;
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, $orange, $redish);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+
+  img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    border-radius: 50%;
+    // border: 1px solid $darkGrey;
+  }
+
+  &__text {
+    color: #000;
+  }
+}
